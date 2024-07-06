@@ -1,0 +1,16 @@
+// Sample program to test lexical analyzer
+#include <iostream>
+
+int main() {
+    int num1 = 10;
+    int num2 = 20;
+    int result = num1 + num2;
+
+    if (result > 15) {
+        std::cout << "Result is greater than 15." << std::endl;
+    } else {
+        std::cout << "Result is not greater than 15." << std::endl;
+    }
+
+    return 0;
+}
